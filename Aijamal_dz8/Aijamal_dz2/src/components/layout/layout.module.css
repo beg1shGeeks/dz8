@@ -1,0 +1,39 @@
+header nav a {
+  text-decoration: none;
+  color: azure;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: fixed;
+}
+header nav {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(53, 50, 50);
+  color: #fff;
+  cursor: pointer;
+}
+.avatarInner {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: black;
+}
